@@ -1,6 +1,7 @@
 import { ThemeToggle } from "@/components/theme-toggle";
 import { NormalButton } from "@/components/myui/normal-button";
 import { TwMergeButton } from "./myui/twmerge-button";
+import { VariantsButton } from "./myui/variants-button";
 
 export const MainContents = () => {
   return (
@@ -11,6 +12,9 @@ export const MainContents = () => {
       <TwMergeButton className="bg-secondary text-secondary-foreground hover:bg-secondary/80" onClick={() => alert("Clicked!")}>
         TwMerge Button
       </TwMergeButton>
+      <VariantsButton variant="destructive" size="default" onClick={() => alert("Clicked!")}>
+        Variants Button
+      </VariantsButton>
     </div>
   );
 };
