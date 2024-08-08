@@ -1,7 +1,8 @@
 import { ThemeToggle } from "@/components/theme-toggle";
 import { NormalButton } from "@/components/myui/normal-button";
-import { TwMergeButton } from "./myui/twmerge-button";
-import { VariantsButton } from "./myui/variants-button";
+import { TwMergeButton } from "@/components/myui/twmerge-button";
+import { VariantsButton } from "@/components/myui/variants-button";
+import { CnVariantsButton } from "@/components/myui/cn-variants-button";
 
 export const MainContents = () => {
   return (
@@ -15,6 +16,9 @@ export const MainContents = () => {
       <VariantsButton variant="destructive" size="default" onClick={() => alert("Clicked!")}>
         Variants Button
       </VariantsButton>
+      <CnVariantsButton pending={true} onClick={() => alert("Clicked!")}>
+        Cn Variants Button
+      </CnVariantsButton>
     </div>
   );
 };
