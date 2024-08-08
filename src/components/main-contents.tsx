@@ -1,10 +1,12 @@
 import { ThemeToggle } from "@/components/theme-toggle";
+import { NormalButton } from "@/components/myui/normal-button";
 
 export const MainContents = () => {
   return (
     <div className="flex justify-center flex-col items-center gap-5">
       <p className="text-3xl font-bold text-primary">HELLO WORLD</p>
       <ThemeToggle />
+      <NormalButton onClick={() => alert("Clicked!")}>Normal Button</NormalButton>
     </div>
   );
 };
