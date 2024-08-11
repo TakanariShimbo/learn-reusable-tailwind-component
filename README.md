@@ -6,6 +6,7 @@ Base Repository: https://github.com/TakanariShimbo/vite-react-shadcn-template.gi
 Ref Repository: https://github.com/Shin-sibainu/tailwind-more-ease-tutorial  
 Ref Youtube: https://www.youtube.com/watch?v=Ix_gYhfB_9Q
 
+
 # Getting Started
 
 ```sh
